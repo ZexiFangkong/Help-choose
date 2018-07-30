@@ -1,0 +1,152 @@
+PODS:
+  - AFNetworking (3.0.0):
+    - AFNetworking/NSURLSession (= 3.0.0)
+    - AFNetworking/Reachability (= 3.0.0)
+    - AFNetworking/Security (= 3.0.0)
+    - AFNetworking/Serialization (= 3.0.0)
+    - AFNetworking/UIKit (= 3.0.0)
+  - AFNetworking/NSURLSession (3.0.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.0.0)
+  - AFNetworking/Security (3.0.0)
+  - AFNetworking/Serialization (3.0.0)
+  - AFNetworking/UIKit (3.0.0):
+    - AFNetworking/NSURLSession
+  - Aspects (1.4.1)
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - Bugly (2.5.0)
+  - CYLTabBarController (1.17.14)
+  - DACircularProgress (2.3.1)
+  - DDPageControl (0.3.2)
+  - FMDB (2.7.2):
+    - FMDB/standard (= 2.7.2)
+  - FMDB/standard (2.7.2)
+  - JCore (1.2.1)
+  - JLRoutes (1.6)
+  - JPush (3.1.0):
+    - JCore (~> 1.2.0)
+  - Masonry (1.1.0)
+  - MBProgressHUD (0.9.2)
+  - MJExtension (3.0.15.1)
+  - MJRefresh (3.1.15.3)
+  - MOBFoundation (3.1.6)
+  - MWPhotoBrowser (2.1.2):
+    - DACircularProgress (~> 2.3)
+    - MBProgressHUD (~> 0.9)
+    - "SDWebImage (!= 3.7.2, ~> 3.7)"
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - ShareSDK3 (4.0.4):
+    - MOBFoundation
+    - ShareSDK3/ShareSDK (= 4.0.4)
+  - ShareSDK3/ShareSDK (4.0.4):
+    - MOBFoundation
+  - ShareSDK3/ShareSDKUI (4.0.4):
+    - MOBFoundation
+  - UICollectionViewLeftAlignedLayout (1.0.2)
+  - UICountingLabel (1.4.1)
+  - UMengAnalytics-NO-IDFA (4.2.5)
+  - WebViewJavascriptBridge (6.0.3)
+  - WZLBadge (1.2.6)
+  - YYText (1.0.7)
+
+DEPENDENCIES:
+  - AFNetworking (= 3.0)
+  - Aspects
+  - BlocksKit
+  - Bugly
+  - CYLTabBarController (~> 1.17.4)
+  - DDPageControl
+  - FMDB
+  - JLRoutes (= 1.6)
+  - JPush
+  - Masonry
+  - MBProgressHUD
+  - MJExtension
+  - MJRefresh
+  - MWPhotoBrowser
+  - SDWebImage
+  - ShareSDK3
+  - ShareSDK3/ShareSDKUI
+  - UICollectionViewLeftAlignedLayout
+  - UICountingLabel
+  - UMengAnalytics-NO-IDFA
+  - WebViewJavascriptBridge
+  - WZLBadge
+  - YYText
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - Aspects
+    - BlocksKit
+    - Bugly
+    - CYLTabBarController
+    - DACircularProgress
+    - DDPageControl
+    - FMDB
+    - JCore
+    - JLRoutes
+    - JPush
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - MOBFoundation
+    - MWPhotoBrowser
+    - SDWebImage
+    - ShareSDK3
+    - UICollectionViewLeftAlignedLayout
+    - UICountingLabel
+    - UMengAnalytics-NO-IDFA
+    - WebViewJavascriptBridge
+    - WZLBadge
+    - YYText
+
+SPEC CHECKSUMS:
+  AFNetworking: 932ff751f9d6fb1dad0b3af58b7e3ffba0a4e7fd
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  Bugly: 3ca9f255c01025582df26f9222893b383c7e4b4e
+  CYLTabBarController: ba33f518d5cc33dc4b6cd29103eda93317c0e40e
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  DDPageControl: 0649cdb188fb9045e7b80ba63c15e0a277fbdf5f
+  FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
+  JCore: 467b5b56bd367c548f88ee1b5794d94ee07ab319
+  JLRoutes: 435d791422e96c9b9b5e1c4db1aedb3ae1b1a08f
+  JPush: 5921e25ad13e0386351079217b009f2039084eac
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  MOBFoundation: a87c5f11fb87f873337189c3ec0add4d3ec6221a
+  MWPhotoBrowser: 5836d7aa041dc05a13de380c246826578adc5ea5
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  ShareSDK3: 75b57bab0cbe3119e281c7668eaad9d48adf3fde
+  UICollectionViewLeftAlignedLayout: 830bf6fa5bab9f9b464f62e3384f9d2e00b3c0f6
+  UICountingLabel: faf890b505d96312e324a86718f031fafffb0ccb
+  UMengAnalytics-NO-IDFA: 16666e32edce5be44ae5b14aaaa7f3582e09d6ab
+  WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
+  WZLBadge: 9ec779dcfd94c825518b395e8315fccaabff1bfa
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
+
+PODFILE CHECKSUM: 6d15dff890c7cd68e2929db9cda398c27a356378
+
+COCOAPODS: 1.5.0

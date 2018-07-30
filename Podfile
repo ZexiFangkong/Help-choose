@@ -16,6 +16,7 @@ target 'JSCChoosing' do
   pod 'UICollectionViewLeftAlignedLayout'
   pod 'MWPhotoBrowser'
   pod 'Masonry'
+  pod 'CYLTabBarController', '~> 1.17.4'
 
   #功能
   pod 'BlocksKit'
@@ -40,7 +41,7 @@ target 'JSCChoosing' do
   pod 'ShareSDK3'
   pod 'ShareSDK3/ShareSDKUI'
 
-  # inhibit_all_warnings!  #禁止掉警告
+  inhibit_all_warnings!  #禁止掉警告
 
   # Pods for JSCChoosing
 
